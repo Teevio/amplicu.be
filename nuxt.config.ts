@@ -20,7 +20,7 @@ export default defineNuxtConfig({
         { property: "twitter:image", content: "https://amplicu.be/amplicube-twitter.png" },
         { property: "twitter:site:id", content: "amplicube" }
       ],
-      link: [{ rel: 'stylesheet', href: './style.css' }],
+      link: [{ rel: 'stylesheet', href: '/style.css' }],
       script: [{ src: "https://cdn.usefathom.com/script.js", "data-site": "BGQVHRZN", defer: "defer" }],
       title: 'Amplicube'
     }
